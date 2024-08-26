@@ -20,4 +20,4 @@ fp.write('hello world')
 # close file
 fp = open('demo/a.txt','w')
 fp.write('hello world')
-# fp.close()
+fp.close()
