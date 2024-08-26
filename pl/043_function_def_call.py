@@ -4,18 +4,27 @@
 # @File: 043_function_def_call
 # @Project: python_unittest
 
-print('welcome')
-print('2 people')
+# print('welcome')
+# print('2 people')
+#
+# print('welcome')
+# print('2 people')
+#
+# print('welcome')
+# print('2 people')
+#
+# print('welcome')
+# print('2 people')
+#
+# print('welcome')
+# print('2 people')
 
-print('welcome')
-print('2 people')
+def f1():
+    print('Welcome!')
+    print('2 people')
+    print()
 
-print('welcome')
-print('2 people')
-
-print('welcome')
-print('2 people')
-
-print('welcome')
-print('2 people')
-
+# call the function
+f1()
+f1()
+f1()
