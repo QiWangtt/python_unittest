@@ -15,7 +15,7 @@ class Person:
 
     def run(self):
         print(f'{self.name} has run 5 km, he has lost weight')
-        # 减肥， 即修改属性
+        # 减肥， 即修改属性，必须要通过self， 不通过self的weight就是一个局部变量，加上self代表对象的属性
         self.weight -= 0.5
 
     def eat(self):
@@ -28,3 +28,8 @@ Jack.run()
 print(Jack)
 Jack.eat()
 print(Jack)
+print(dir(Jack)) # 展示所有魔法方法
+
+
+
+
