@@ -18,4 +18,3 @@ b = Demo('b')
 del a # 删除，销毁对象
 print('Process is over')
 
-
