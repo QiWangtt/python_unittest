@@ -28,8 +28,15 @@ Jack.run()
 print(Jack)
 Jack.eat()
 print(Jack)
-print(dir(Jack)) # 展示所有魔法方法
+# print(dir(Jack)) # 展示所有魔法方法
 
+Rose = Person('Rose', 45)
+print(Rose)
+print(Rose.weight)
+Rose.eat()
+print(Rose)
+Rose.run()
+print(Rose)
 
 
 

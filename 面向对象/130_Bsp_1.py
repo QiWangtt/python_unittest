@@ -28,4 +28,4 @@ Jack.run()
 print(Jack)
 Jack.eat()
 print(Jack)
-print(dir(Jack)) # 显示该对象的所有方法
+# print(dir(Jack)) # 显示该对象的所有方法
