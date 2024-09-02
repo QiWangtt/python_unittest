@@ -11,10 +11,10 @@ user_list = [
     {'name': 'Bob', 'age': 28},
 ]
 
-user_list.sort(key=lambda x: x['name'])
+user_list.sort(key=lambda x: x['name']) # sort by name
 print('Sort by name: ', user_list)
 
-user_list.sort(key=lambda x: x['age'])
+user_list.sort(key=lambda x: x['age']) # sort by age
 print('Sort by age ascent: ', user_list)
 
 user_list.sort(key=lambda x: x['age'], reverse=True)

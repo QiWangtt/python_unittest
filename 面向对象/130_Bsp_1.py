@@ -6,7 +6,7 @@
 # @Quelle: https://www.youtube.com/watch?v=aHRb8RoX9vI&list=PLFbd8KZNbe-_PWBT_L7V6fNYJOgER0ZlR&index=113
 
 class Person:
-    def __init__(self, name, weight):
+    def __init__(self, name, weight): # 创建对象后给对象添加属性
         self.name = name
         self.weight = weight
 
@@ -28,3 +28,4 @@ Jack.run()
 print(Jack)
 Jack.eat()
 print(Jack)
+print(dir(Jack)) # 显示该对象的所有方法
