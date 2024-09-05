@@ -18,7 +18,7 @@ class Dog(Animal):
 class XTQ(Dog):
     pass
 
-dog = Dog()
+dog = Dog()  # 实例对象，实例化， 平时说的对象都是实例对象
 dog.eat()  # 调用父类的方法
 dog.bark()
 
