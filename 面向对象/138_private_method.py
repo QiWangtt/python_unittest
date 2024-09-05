@@ -49,3 +49,4 @@ print(Jack)
 # 补充
 # 对象.__dict__  魔法属性，可以将对象具有的属性组成字典返回
 print(Jack.__dict__)
+
