@@ -18,7 +18,7 @@ class Game:
     def show_help():
         print('help information for the game')
 
-    @classmethod  # 类方法
+    @classmethod  # 类方法， 这行代码叫做装饰器，只要出现就代表下面是类方法。括号里是不是cls无所谓
     def show_top_score(cls): # 这里调用的是class属性， 也可以改成self
         print(f'The top score of this game is {Game.top_score}')  # Game也可以改成cls
         print('_' * 100)
